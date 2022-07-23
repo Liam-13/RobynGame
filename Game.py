@@ -21,16 +21,16 @@ def nameCheck(name):
   
   for x in dad:
     if x in name:
-      garb = input('Ahhhhh Gerry, glad to see you are playing as well... stay the course')
+      garb = input('\nAhhhhh Gerry, glad to see you are playing as well... stay the course! Please hit enter to continue when you are ready\n')
   for x in mom:
     if x in name:
-      garb = input('Ahhhhh Gerry, glad to see you are playing as well... stay the course')
+      garb = input('\nyay! Welcome Sylvia, so happy to have you playing our game! Please hit enter to continue when you are ready\n')
   for x in avery:
     if x in name:
-      garb = input('Ahhhhh Gerry, glad to see you are playing as well... stay the course')
+      garb = input('\nAhhhhh welcome eggy, glad to see you are playing our game! lets do this! Please hit enter to continue when you are ready\n')
   for x in kathryn:
     if x in name:
-      garb = input('Ahhhhh Gerry, glad to see you are playing as well... stay the course')
+      garb = input('/nAhhhhh welcome kiffy, glad to see you are playing as well! Please hit enter to continue when you are ready\n')
 
 def ScoreCheck(score, questions, adjectives):
   ratio = score/questions
