@@ -5,17 +5,31 @@ import matplotlib.pyplot as plt
 from PIL import Image
 
 #Functions
-def progress(Name, progress):
+def progress(name, progress):
   progressBar = 'LiamsLove ### Thisisus #### Piano ####### Cactuses #### Tik Tok ##### dance ####### breakfast ### Massage ##### Ottawa ###### Fish ######### Gift card!!'
-  print('\nHere is your progress {}\n'.format(Name))
+  print('\nHere is your progress {}\n'.format(name))
   print(progressBar)
   print(progress + '\n')
 
 
 
-#def NameCheck(Name):
-
-
+def nameCheck(name):
+  dad = ['dad', 'papa', 'ger']
+  mom = ['mom', 'syl', 'mot'] 
+  avery = ['av', 'eg', 'rag']
+  kathryn = ['kat', 'kit', 'kif']
+  
+  for x in dad:
+    if x in name:
+      garb = input('Ahhhhh Gerry, glad to see you are playing as well... stay the course')
+  for x in mom:
+    if x in name:
+    
+  for x in avery:
+    if x in name:
+    
+  for x in kathryn:
+    if x in name:
 
 
 def ScoreCheck(score, questions, adjectives):
@@ -159,7 +173,7 @@ progress = '--'
 Arrow= '>'
 
 
-#GetName
+#Getname
 name = input('Hello there valued player, This is the Robyn and Liam gamebot, please type in the name you would like me to call you\n')
 okay = False
 anger = 0
@@ -179,6 +193,8 @@ while okay == False:
       name = 'Swervin Mervin'
       garb = input('Hmph, thats it my friend, no more of this. That was three chances. I will be calling you {}\n'.format(name)) 
       break
+Checkname(name)
+
 #Script
 # print('Loading...')
 # time.sleep(0.5)
