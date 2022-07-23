@@ -24,13 +24,13 @@ def nameCheck(name):
       garb = input('Ahhhhh Gerry, glad to see you are playing as well... stay the course')
   for x in mom:
     if x in name:
-    
+      garb = input('Ahhhhh Gerry, glad to see you are playing as well... stay the course')
   for x in avery:
     if x in name:
-    
+      garb = input('Ahhhhh Gerry, glad to see you are playing as well... stay the course')
   for x in kathryn:
     if x in name:
-
+      garb = input('Ahhhhh Gerry, glad to see you are playing as well... stay the course')
 
 def ScoreCheck(score, questions, adjectives):
   ratio = score/questions
